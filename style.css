@@ -9,7 +9,7 @@ width: 100%;
 }
 
 .far, .fab, .icon-head{
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 25px;
 }
 
@@ -19,8 +19,8 @@ width: 100%;
 }
 
 .icon-head{
-    width: 6%;
-    height: 35%;
+    width: 8%;
+    height: 50%;
 }
 
 .last-icon{
@@ -57,4 +57,25 @@ width: 100%;
 .cell-1{
     border-top: none;
     border-right: 1px solid grey;
+}
+
+.cell-4, .cell-2, .cell-5{
+    border-right: 1px solid grey;
+}
+
+.info-block{
+    margin: 0% 10%;
+}
+
+.input-marg{
+    margin-right: 5%;
+    margin-left:1%;
+}
+
+h5{
+    font-weight: 700;
+}
+
+.radio-marg{
+    margin: 0% 30%;
 }
