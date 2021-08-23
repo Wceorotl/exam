@@ -1,0 +1,15 @@
+*{
+    font-family: 'EB Garamond', serif;
+}
+
+.list-first li {
+margin-left: 20%;
+width: calc(100% + 10px) ;
+width: 100%;
+}
+
+.far, .fab{
+    font-size: 25px;
+    margin-right: 25px;
+}
+
