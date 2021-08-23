@@ -50,3 +50,11 @@ width: 100%;
     margin-left: 15%;
 }
 
+.my-row{
+    border-bottom: 1px solid grey;
+}
+
+.cell-1{
+    border-top: none;
+    border-right: 1px solid grey;
+}
