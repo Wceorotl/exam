@@ -5,24 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body>
     <div class="container-fluid">
-        <header class="d-flex justify-content-between border-bottom ">
+        <header class="d-flex justify-content-between border-bottom">
             <div class="d-flex mt-4 block-1-head">
                 <h3> <b>TOUR-GUIDE</b> </h3>
-            <ul class="list-unstyled d-flex  list-first">
-                <li>Stories</li>
-                <li>Gallery</li>
-                <li>Features</li>
-                <li> Write to us </li>
-            </ul>
+                <div class="d-none d-sm-block">
+                    <ul class= "k list-unstyled d-flex  list-first ">
+                        <li>Stories</li>
+                        <li>Gallery</li>
+                        <li>Features</li>
+                        <li class="d-inline">Write to us</li>
+                    </ul>
+                </div>
+
+                
+            
             </div>
-            <div class="d-flex mt-4 p-1 margin-l">
+            
+            
+
+
+                  <nav class="navbar navbar-dark   d-sm-none p-1 m-2" >
+                    <div class="container-fluid">
+                      
+                      <button class="bg-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fas fa-bars"></i></span>
+                      </button>
+                
+                      <div class="collapse navbar-collapse" id="navbarsExample01">
+                        <ul class= "list-unstyled">
+                            <li>Stories</li>
+                            <li>Gallery</li>
+                            <li>Features</li>
+                            <li class="d-inline">Write to us</li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+                  
+            <div class="d-flex mt-4 p-1 margin-l header-icons d-none d-xl-block">
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-instagram"></i>
@@ -33,63 +63,121 @@
         </header>
 
         <div class="d-grid">
-            <div class="row border-bottom">
-                <div class="col-6">
-                    <div class="block-1">
+            <div class="row border-bottom main-blocks">
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="block-1 p-md-3">
                         <h1>Let`s hit the road</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos rerum et, nobis non ratione molestiae eaque sint est ut, odit laborum veniam pariatur qui eius deserunt voluptatum, eum sit!
                         <br> <br>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quam eaque animi cumque aperiam, sit voluptas molestiae ad. Dolores eius molestiae nobis totam 
                     </p>
-                    <button type="button" class="btn btn-outline-secondary">Start</button>
+                    <button type="button" class="btn btn-outline-secondary mb-3">Start</button>
                     </div>
                     
                 </div>
-                <div class="col-6">
-                    <img src="https://images.unsplash.com/photo-1505017791108-7b40f307cdc5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZmlyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-blocks " src="https://images.unsplash.com/photo-1505017791108-7b40f307cdc5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZmlyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
                 </div>
             </div>
-            <div class="row border-bottom">
-                <div class="col-6">
-                    <img src="https://images.unsplash.com/photo-1504846158394-5251e668cc44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGZpcmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="row border-bottom ">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-blocks" src="https://images.unsplash.com/photo-1552931668-b6fedfb82b1a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZmlyZXxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
                 </div>
-                <div class="col-6">
-                    <div class="block-2">
+                <div class="col-md-6 col-sm-12">
+                    <div class="block-2 p-md-3">
                         <h1>Story</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem id labore dolor! Odio quas vitae accusamus quaerat, aliquam soluta officiis, architecto minima harum culpa velit non eius in commodi vero.Temporibus animi, praesentium maxime molestiae non voluptas magni atque molestias aspernatur odio ullam dicta commodi harum blanditiis, vitae omnis culpa sit beatae numquam totam quam possimus! Ea dolores quae quaerat.</p>
-                        <button type="button" class="btn btn-outline-secondary">More</button>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem id labore dolor! Odio quas vitae accusamus quaerat, aliquam soluta officiis, architecto minima harum culpa velit non eius in commodi vero.Temporibus animi, praesentium maxime molestiae non voluptas magni atque molestias aspernatur odio ullam dicta commodi harum blanditiis.</p>
+                        <button type="button" class="btn btn-outline-secondary mb-3">More</button>
                     </div>
                 </div>
             </div>
-            <div class="row border-bottom">
-                <div class="col-6">
-                    <div class="block-3">
+            <div class="row border-bottom main-blocks">
+                <div class="col-md-6 col-sm-12">
+                    <div class="block-3 p-md-3">
                         <h1>Story</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem id labore dolor! Odio quas vitae accusamus quaerat, aliquam soluta officiis, architecto minima harum culpa velit non eius in commodi vero.Temporibus animi, praesentium maxime molestiae non voluptas magni atque molestias aspernatur odio ullam dicta commodi harum blanditiis, vitae omnis culpa sit beatae numquam totam quam possimus! Ea dolores quae quaerat.</p>
-                        <button type="button" class="btn btn-outline-secondary">More</button>
+                        <button type="button" class="btn btn-outline-secondary mb-3">More</button>
                     
                     </div>
                 </div>
-                <div class="col-6">
-                    <img src="https://images.unsplash.com/photo-1507697364665-69eec30ea71e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxhbXAlMjBuYXR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-blocks " src="https://images.unsplash.com/photo-1535391909-6b4eeb19f8bb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGxhbXB8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
                 </div>
             </div>
         </div>
         <div>
             <h1 class="text-center m-5">Gallery</h1>
             <div class="gallery-block d-flex mb-5">
-                    <img class="gallery-img " src="https://images.unsplash.com/photo-1616848657269-c3c7b227fc65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbXBpbmd8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
-                    <img class="gallery-img " src="https://images.unsplash.com/photo-1507242032263-5986fb156d3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNhbXBpbmd8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
-                    <img class="gallery-img " src="https://images.unsplash.com/photo-1534685157449-86b12aed151e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FtcGluZ3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
-                    <img class="gallery-img " src="https://images.unsplash.com/photo-1583872922377-88058309c346?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcHxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    
+                    <!-- <img class="gallery-img " src="https://images.unsplash.com/photo-1616848657269-c3c7b227fc65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbXBpbmd8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <img class="gallery-img d-none d-sm-block" src="https://images.unsplash.com/photo-1507242032263-5986fb156d3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNhbXBpbmd8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <img class="gallery-img d-none d-lg-block" src="https://images.unsplash.com/photo-1534685157449-86b12aed151e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FtcGluZ3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    <img class="gallery-img d-none d-lg-block" src="https://images.unsplash.com/photo-1583872922377-88058309c346?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcHxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                     -->
+
+                     <div class="content">
+                <div class="content-overlay"></div>
+                <img class="gallery-img" src="https://images.unsplash.com/photo-1616848657269-c3c7b227fc65?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbXBpbmd8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">This is a title</h3>
+                  <p class="content-text">This is a short description</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="content d-none d-sm-block">
+                <div class="content-overlay"></div>
+                <img class="content-image gallery-img" src="https://images.unsplash.com/photo-1507242032263-5986fb156d3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNhbXBpbmd8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">This is a title</h3>
+                  <p class="content-text">This is a short description</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="content d-none d-lg-block">
+                <div class="content-overlay"></div>
+                <img class="content-image gallery-img " src="https://images.unsplash.com/photo-1534685157449-86b12aed151e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FtcGluZ3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">This is a title</h3>
+                  <p class="content-text">This is a short description</p>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="content d-none d-lg-block">
+                <div class="content-overlay"></div>
+                <img class="content-image  gallery-img " src="https://images.unsplash.com/photo-1583872922377-88058309c346?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcHxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">This is a title</h3>
+                  <p class="content-text">This is a short description</p>
+                </div>
+              </a>
+            </div>
+                    
              </div>
+
+             
+
+               
+                 
+                    
+             </div>
+             
+
+             
+
+
         </div>
         <div>
-            <h1 class="text-center m-3 mb-5">Features</h1>
-            
+            <h1 class="text-center m-3 mb-5 features-block">Features</h1>
+            <div>
+
+            </div>
             <table class="table"> 
-                <tr class="my-row text-center">
+                <tr class="my-row text-center" id="item-1">
                     <td class="cell-1">
                         <div class="col-sm p-3 ">
                         <img src="./img/airplane-48.png" alt="">
@@ -112,7 +200,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="text-center my-row-2">
+                <tr class="text-center my-row-2"  id="item-2">
                     <td class="cell-4 ">
                         <div class="col-sm p-3 ">
                         <img src="./img/alarm_clock-48.png" alt="">
@@ -142,29 +230,39 @@
         <div>
             <h1 class="text-center m-5">Write to us</h1>
             <div class="d-grid info-block border-bottom ">
-                <div class="row">
-                    <h5 class="col-sm m-2">Name:</h5>
-                    <h5 class="col-sm m-2">Email:</h5>
-                    <h5 class="col-sm m-2">Phone:</h5>
+                <div class="row w-100">
+                    <div class="write-block w-100">
+                        <div class="d-inline-block">
+                            <h5 class="col-sm m-2">Name:</h5>
+                            <input type="text" class="col-sm input-marg">
+                        </div>
+                        <div class="d-inline-block">
+                            <h5 class="col-sm m-2">Email:</h5>
+                            <input type="email" class="col-sm input-marg">
+                        </div>
+                        
+                        <div class="d-inline-block">
+                            <h5 class="col-sm m-2">Phone:</h5>
+                            <input type="number" class="col-sm input-marg" >
+                        </div>
+                    </div>
+                    
+                    
                 </div>
-                <div class="row">
-                    <input type="text" class="col-sm input-marg">
-                    <input type="email" class="col-sm input-marg">
-                    <input type="number" class="col-sm input-marg" >
-                </div>
+                
                 <div class="row mt-3 mb-2">
-                    <div class="d-flex w-100">
+                    <div class="d-flex w-100 contact-section">
                         <h5 class="">Contact me via:</h5>
                         <div class="d-flex p-1">
                             <div class="custom-control custom-radio custom-control-inline radio-marg d-flex ">
                                 <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input m-1">
                                 <label class="custom-control-label" for="customRadioInline1"> <b>Email</b> </label>
                               </div>
-                              <div class="custom-control custom-radio custom-control-inline radio-marg d-flex">
+                              <div class="custom-control custom-radio custom-control-inline radio-marg radio-marg-sec d-flex">
                                 <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input m-1">
                                 <label class="custom-control-label" for="customRadioInline2"> <b>Phone</b> </label>
                               </div>
-                              <div class="custom-control custom-radio custom-control-inline radio-marg d-flex">
+                              <div class="custom-control custom-radio custom-control-inline radio-marg radio-marg-sec d-flex">
                                 <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input m-1">
                                 <label class="custom-control-label" for="customRadioInline3"><b>Telegram</b></label>
                               </div>
@@ -208,8 +306,8 @@
                 <i class="fab fa-twitter border border-dark rounded-circle p-3 icon-footer"></i>  
                 <i class="fab fa-facebook-f border border-dark rounded-circle p-3 icon-footer"></i>
                 <i class="fab fa-instagram border border-dark rounded-circle p-3 icon-footer"></i>
-                <img src="./img/youtube-128.png" class="icon-footer p-2 border border-dark rounded-circle" alt="">
-                <img src="./img/gmail-128.png" class="p-2 border border-dark rounded-circle icon-marg" alt="">
+                <i class="fab fa-youtube border border-dark rounded-circle p-3 icon-footer"></i>
+                <i class="fas fa-envelope border border-dark rounded-circle p-3 icon-footer"></i>
             </div>
             
             <p class="text-center m-3">
@@ -218,5 +316,8 @@
         </div>
     </div>
 
-</body>
+    
+    
+
+ </body>
 </html>
